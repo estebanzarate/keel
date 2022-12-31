@@ -1,0 +1,28 @@
+{
+	"name": "keel",
+	"version": "1.0.0",
+	"description": "Página web ficticia desarrollada con HTML, CSS, Sass y JavaScript",
+	"main": "index.html",
+	"scripts": {
+		"sass": "sass --watch scss/style.scss css/style.css"
+	},
+	"author": "Esteban Zárate",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/estebanzarate/keel.git"
+	},
+	"keywords": [
+		"HTML",
+		"CSS",
+		"Sass",
+		"JavaScript"
+	],
+	"bugs": {
+		"url": "https://github.com/estebanzarate/keel/issues"
+	},
+	"homepage": "https://github.com/estebanzarate/keel#readme",
+	"dependencies": {
+		"sass": "^1.57.1"
+	}
+}
