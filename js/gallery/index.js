@@ -18,9 +18,11 @@ document.addEventListener('click', e => {
 			</div>
 		`;
 		galleryImgModal.classList.add('img-modal-visible');
+		document.body.style.overflow = 'hidden';
 	}
 	if (e.target.matches(['.gallery-modal-container', '.gallery-modal', '.gallery-modal-img'])) {
 		document.querySelector('.gallery-modal').classList.remove('img-modal-visible');
 		document.querySelector('.gallery-modal-container').remove();
+		document.body.style.overflow = 'unset';
 	}
 });
